@@ -24,8 +24,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
-      with: 
-        token: ${{ secrets.GB_PAT }}
+      # with: 
+      #   token: ${{ secrets.GB_PAT }}
     - name: List the files
       run: |
         ls -la
