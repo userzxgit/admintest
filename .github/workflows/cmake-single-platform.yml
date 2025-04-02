@@ -4,10 +4,14 @@ name: CMake on a single platform
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
+      - development
   pull_request:
-    branches: [ "main" ]
-
+    branches:
+      - main
+      - development
+      
 permissions:
   contents: read
   
